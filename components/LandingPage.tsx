@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 
 interface LandingPageProps {
   onNavigate: () => void;
@@ -39,14 +38,6 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
         <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide mb-12">
           rápido y seguro
         </p>
-
-        <button 
-          onClick={onNavigate}
-          className="group flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-full font-medium hover:bg-primary/90 transition-all shadow-[0_0_20px_rgba(34,197,94,0.2)] hover:shadow-[0_0_30px_rgba(34,197,94,0.4)]"
-        >
-          Gestionar Servicios
-          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-        </button>
       </main>
 
       {/* Footer minimal */}
