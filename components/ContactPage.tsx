@@ -33,7 +33,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                 </div>
                 <div>
                   <h4 className="font-bold text-2xl mb-1 text-foreground">Nuestro asistente virtual</h4>
-                  <p className="text-primary font-mono font-bold text-xl mb-4 tracking-tight">+54 9 11 1234-5678</p>
+                  <p className="text-primary font-mono font-bold text-xl mb-4 tracking-tight">+54 387 4836378</p>
                   <p className="text-muted-foreground leading-relaxed">
                     Podés chatear con nuestro asistente virtual 24/7 para resolver dudas y crear tickets de soporte por si hubo algún problema con tu conexión.
                   </p>
@@ -43,14 +43,13 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
               {/* Email */}
-              <div className="flex items-start gap-4 p-4 rounded-xl hover:bg-secondary/30 transition-colors">
+              <div className="flex items-start gap-4 p-4 rounded-xl hover:bg-secondary/30 transition-colors w-full">
                 <div className="p-3 rounded-lg bg-secondary border border-border">
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="flex-1">
                   <h4 className="font-semibold text-lg">Email</h4>
-                  <p className="text-muted-foreground">ventas@conectandoweb.com</p>
-                  <p className="text-muted-foreground text-sm opacity-80">soporte@conectandoweb.com</p>
+                  <p className="text-muted-foreground whitespace-nowrap">servicio.conectando@gmail.com</p>
                 </div>
               </div>
 
@@ -62,7 +61,6 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                 <div>
                   <h4 className="font-semibold text-lg">Horario de Atención</h4>
                   <p className="text-muted-foreground">Lunes a Viernes: 09:00 - 18:00</p>
-                  <p className="text-muted-foreground text-sm opacity-80">Sábados: 09:00 - 13:00</p>
                 </div>
               </div>
             </div>

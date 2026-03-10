@@ -35,7 +35,7 @@ const PlansPage: React.FC<PlansPageProps> = ({ onBack }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const mensaje = `Hola! Quiero contratar el servicio. Creame un ticket de ventas con el nombre: ${formData.nombre}. Dni ${formData.documento}. Domicilio ${formData.domicilio}`;
-    const numero = '5493876857603';
+    const numero = '14155238886';
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
     setShowModal(false);

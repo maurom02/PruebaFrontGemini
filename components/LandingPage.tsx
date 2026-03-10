@@ -49,7 +49,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
       {/* Footer minimal */}
       <footer className="relative z-10 w-full py-6 text-center border-t border-border/40 bg-background/20 backdrop-blur-sm flex flex-col items-center gap-2">
         <p className="text-xs text-muted-foreground">
-          &copy; 2024 Conectando Web. Todos los derechos reservados.
+          &copy; 2026 Conectando Web. Todos los derechos reservados.
         </p>
       </footer>
     </div>
